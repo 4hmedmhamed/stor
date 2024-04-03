@@ -1,0 +1,111 @@
+*{
+  /* background: url(/src/components/imge/multicolored-motion-gradient-purple-blue-260nw-2181374809.jpg) no-repeat; */
+
+}
+ body{
+   /* color: #f0f2f3; */
+   background: rgb(163, 162, 164);
+  
+ }
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* color: white; */
+}
+
+.App-link {
+  /* color: #61dafb; */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* .opst{
+  opacity: 1;
+  position: absolute;
+
+} */
+.Appop{
+  position: relative;
+  border: 1px solid  ;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(154, 153, 153);
+}
+.test{
+  position: absolute;
+margin-top: 33%;
+height: 70px;
+width: 70px;
+border-radius:50% ;
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 2px  2px 2px 2px rgb(230, 227, 227);
+}
+.test p{
+  margin-top: 30%;
+  font-weight: 600;
+}
+
+.font_TExt{
+  background-color: #f0f3f9;
+  border-radius: 20px;
+  border: 1px solid rgb(241, 232, 232);
+  padding: 5px;
+}
+.test .BASIC{
+  color: #205cd5;
+}
+
+.BASIC .oo{
+  background-color: #2b20ff;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.test .STANDER{
+  color: #c3d520;
+}
+
+.STANDER .oo{
+  background-color: #f5e23b;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.test .PRIMAERE{
+  color: #50d520;
+}
+.PRIMAERE .oo{
+  background-color: #7ae235;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
